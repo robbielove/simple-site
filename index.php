@@ -20,7 +20,7 @@
     <header id="heading" class="bg-gradient-to-r from-violet-900 to-green-500 h-screen">
         <div class="container mx-auto h-full">
             <div class="flex flex-col h-full justify-center items-center">
-                <h1 class="text-white text-center text-[8rem] font-bold"><? echo $_SERVER['SERVER_NAME']; ?></h1>
+                <h1 class="text-white text-center text-[8rem] font-bold"><?php echo $_SERVER['SERVER_NAME']; ?></h1>
                 <p class="text-2xl text-white"></p>
             </div>
         </div>
